@@ -1,6 +1,6 @@
-import { MinQueue } from 'heapify';
-
 const first = (input: string) => {
+  console.log(2134 * 2);
+  console.log(2134 << 1);
   return input
     .split('\n')
     .map((line: string) => {
@@ -20,7 +20,7 @@ const first = (input: string) => {
     .reduce((sum, val: number) => sum + val || 0, 0);
 };
 
-const expectedFirstSolution = 'solution 1';
+const expectedFirstSolution = '18653';
 
 type Cards = {
   [id: number]: {
@@ -64,6 +64,6 @@ const second = (input: string) => {
   return Object.values(cards).reduce((sum, card) => sum + (card.copies), 0);
 };
 
-const expectedSecondSolution = 'solution 2';
+const expectedSecondSolution = '5921508';
 
 export { first, expectedFirstSolution, second, expectedSecondSolution };
