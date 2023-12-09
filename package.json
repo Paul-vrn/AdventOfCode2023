@@ -25,6 +25,6 @@
     "vitest": "^0.34.6"
   },
   "dependencies": {
-    "heapify": "^0.6.0"
+    "ts-priority-queue": "^0.1.1"
   }
 }

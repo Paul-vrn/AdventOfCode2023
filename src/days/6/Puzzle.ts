@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 const first = (input: string) => {
   let result = 1;
   const inputSplit = input.split('\n');

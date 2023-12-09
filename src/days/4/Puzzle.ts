@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 const first = (input: string) => {
   console.log(2134 * 2);
   console.log(2134 << 1);

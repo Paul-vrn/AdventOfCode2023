@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  heapify:
-    specifier: ^0.6.0
-    version: 0.6.0
+  ts-priority-queue:
+    specifier: ^0.1.1
+    version: 0.1.1
 
 devDependencies:
   '@types/node':
@@ -1075,10 +1075,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /heapify@0.6.0:
-    resolution: {integrity: sha512-TeTASfpsbj7CndSUiFHHAcFLV1vbHkpBzoWT7Eonxq8Jxv5O0KQqv9P9sWF6h+R5vZ8126+pxB1EX8CZtOPduw==}
-    dev: false
-
   /ignore@5.3.0:
     resolution: {integrity: sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==}
     engines: {node: '>= 4'}
@@ -1525,6 +1521,10 @@ packages:
     dependencies:
       typescript: 5.3.2
     dev: true
+
+  /ts-priority-queue@0.1.1:
+    resolution: {integrity: sha512-jNwbk4ItfTHVopnlQ/Z7UUlbF1TNsdXS2cb1W8kI6lm8UauIjs8CYSOEh1E/yrIEhl+HVFUMp60ma6fKuvBhBQ==}
+    dev: false
 
   /type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}

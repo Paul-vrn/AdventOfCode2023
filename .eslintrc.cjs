@@ -20,7 +20,7 @@ module.exports = {
         },
       },
     ],
-    'block-spacing': ['error', 'always'],
+    'block-spacing': ['warn', 'always'],
     'array-bracket-spacing': ['error', 'never'],
     'space-in-parens': ['error', 'never'],
     'comma-spacing': [
@@ -48,12 +48,11 @@ module.exports = {
     semi: ['error', 'always'],
     'no-console': ['off'],
     'no-constant-condition': ['warn'],
-    curly: ['error', 'all'],
     'brace-style': [
       'error',
       '1tbs',
       {
-        allowSingleLine: false,
+        allowSingleLine: true,
       },
     ],
     'keyword-spacing': [
